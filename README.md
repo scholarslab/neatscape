@@ -1,4 +1,4 @@
-# Astrolabe
+# Neatscape
 
 An Omeka theme inspired by the design for [Neatline][neatline]. Thanks to
 [Franky Abbott][franky-abbott] for the name!

@@ -1,3 +1,4 @@
-source :rubygems
+source "https://rubygems.org"
 
-gem "susy", "~> 1.0"
+gem "susy"
+gem "foreman"

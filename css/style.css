@@ -1245,7 +1245,7 @@ section {
   }
 }
 
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 690px) {
   body #admin-bar {
     text-align: right !important;
   }
@@ -1268,7 +1268,7 @@ section {
   header[role=banner] #search-container {
     font-size: 0.88889em;
     line-height: 1.875em;
-    width: 17.14286%;
+    width: 26.08696%;
   }
   header[role=banner] #search-container form {
     margin-top: 0;
@@ -1277,18 +1277,6 @@ section {
   header[role=banner] nav {
     font-size: 0.88889em;
     line-height: 1.875em;
-  }
-
-  div[role=main] {
-    padding-left: 8.57143%;
-    padding-right: 8.57143%;
-  }
-  .neatline.show div[role=main] {
-    padding: 0;
-  }
-  .neatline.show div[role=main] #neatline-narrative {
-    padding-left: 17.14286%;
-    padding-right: 17.14286%;
   }
 
   .show .element-set {
@@ -1364,6 +1352,19 @@ section {
     width: 32.07547%;
     float: left;
     margin-right: 1.88679%;
+  }
+}
+@media screen and (min-width: 1050px) {
+  div[role=main] {
+    padding-left: 8.57143%;
+    padding-right: 8.57143%;
+  }
+  .neatline.show div[role=main] {
+    padding: 0;
+  }
+  .neatline.show div[role=main] #neatline-narrative {
+    padding-left: 17.14286%;
+    padding-right: 17.14286%;
   }
 }
 @media print {

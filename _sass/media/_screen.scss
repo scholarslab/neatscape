@@ -717,7 +717,7 @@ footer[role=contentinfo] {
   }
 }
 
-@include at-breakpoint(12) {
+@include at-breakpoint(8) {
   body #admin-bar {
     text-align:right !important;
   }
@@ -753,15 +753,6 @@ footer[role=contentinfo] {
     }
   }
 
-  div[role=main] {
-      @include pad(1,1);
-      .neatline.show & {
-          padding:0;
-          #neatline-narrative {
-              @include pad(2,2);
-          }
-      }
-  }
 
   .show {
     .element-set {
@@ -821,6 +812,18 @@ footer[role=contentinfo] {
       }
     }
 
+}
+
+@include at-breakpoint(12) {
+    div[role=main] {
+        @include pad(1,1);
+        .neatline.show & {
+            padding:0;
+            #neatline-narrative {
+                @include pad(2,2);
+            }
+        }
+    }
 }
 
 @if $development == true {

@@ -768,10 +768,8 @@ footer[role=contentinfo] {
       @include span-columns(10,16);
     }
 
-    #item-tags,
-    #item-citation,
-    #item-output-formats {
-      @include span-columns(6 omega, 16);
+    #item-secondary {
+      @include span-columns(5 omega, 16);
       clear:right;
     }
   }

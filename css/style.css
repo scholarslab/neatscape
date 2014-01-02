@@ -483,12 +483,12 @@ section {
   }
 
   * html {
-    font-size: 125%;
+    font-size: 112.5%;
   }
 
   html {
-    font-size: 20px;
-    line-height: 1.5em;
+    font-size: 18px;
+    line-height: 1.66667em;
   }
 
   html {
@@ -559,18 +559,18 @@ section {
   }
 
   h1 {
-    font-size: 1.6em;
+    font-size: 1.77778em;
     line-height: 1.875em;
     line-height: 1.875em;
   }
   div[role=main] h1:first-child {
-    font-size: 1.8em;
+    font-size: 2em;
     line-height: 1.66667em;
     line-height: 1.66667em;
   }
 
   h2 {
-    font-size: 1.4em;
+    font-size: 1.55556em;
     line-height: 2.14286em;
     line-height: 1.07143em;
     margin-top: 2.14286em;
@@ -586,7 +586,7 @@ section {
   }
 
   h3 {
-    font-size: 1.2em;
+    font-size: 1.33333em;
     line-height: 1.25em;
     color: rgba(75, 75, 75, 0.75);
     margin-top: 1.25em;
@@ -600,31 +600,31 @@ section {
 
   h4 {
     font-size: 1em;
-    line-height: 1.5em;
+    line-height: 1.66667em;
     font-weight: bold;
-    margin-top: 3em;
+    margin-top: 3.33333em;
     padding-top: 0em;
     padding-bottom: 0em;
     margin-bottom: 0em;
   }
   h3 + h4 {
-    margin-top: 1.5em;
+    margin-top: 1.66667em;
     padding-top: 0em;
     padding-bottom: 0em;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.66667em;
   }
 
   h5 {
     font-size: 1em;
-    line-height: 1.5em;
+    line-height: 1.66667em;
     color: rgba(75, 75, 75, 0.75);
-    margin-top: 3em;
+    margin-top: 3.33333em;
     padding-top: 0em;
     padding-bottom: 0em;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.66667em;
   }
   h4 + h5 {
-    margin-top: 1.5em;
+    margin-top: 1.66667em;
     padding-top: 0em;
     padding-bottom: 0em;
     margin-bottom: 0em;
@@ -632,19 +632,19 @@ section {
 
   h6 {
     font-size: 1em;
-    line-height: 1.5em;
+    line-height: 1.66667em;
     font-style: italic;
     color: rgba(75, 75, 75, 0.75);
-    margin-top: 3em;
+    margin-top: 3.33333em;
     padding-top: 0em;
     padding-bottom: 0em;
-    margin-bottom: 3em;
+    margin-bottom: 3.33333em;
   }
   h5 + h6 {
-    margin-top: 1.5em;
+    margin-top: 1.66667em;
     padding-top: 0em;
     padding-bottom: 0em;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.66667em;
   }
 
   h3 + p,
@@ -663,12 +663,12 @@ section {
   }
 
   p {
-    margin: 1.5em 0;
+    margin: 1.66667em 0;
   }
 
   blockquote {
     margin: 0;
-    font-size: 1em;
+    font-size: 1.11111em;
     line-height: 1.5em;
     border-left: 0.375em solid rgba(75, 75, 75, 0.1);
     padding-left: 1.5em;
@@ -687,13 +687,13 @@ section {
 
   /* Forms */
   form {
-    margin-top: 1.5em;
+    margin-top: 1.66667em;
     padding-top: 0em;
     padding-bottom: 0em;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.66667em;
   }
   form .field {
-    margin-bottom: 1.5em;
+    margin-bottom: 1.66667em;
   }
   form fieldset {
     margin: 0;
@@ -709,7 +709,7 @@ section {
   form button {
     font-family: "Crimson Text", Georgia, "Times New Roman", Times, serif;
     color: #4b4b4b;
-    font-size: 0.8em;
+    font-size: 0.88889em;
     line-height: 1.875em;
     line-height: 1;
     padding: 0.46875em;
@@ -740,12 +740,12 @@ section {
   }
 
   figure {
-    margin: 3em 0;
+    margin: 3.33333em 0;
     text-align: center;
   }
   figure img {
     border: 1px solid rgba(75, 75, 75, 0.1);
-    padding: 0.375em;
+    padding: 0.41667em;
     background: #fff;
     -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -753,7 +753,7 @@ section {
   }
 
   figcaption {
-    font-size: 0.8em;
+    font-size: 0.88889em;
     line-height: 1.875em;
     margin-top: 1.875em;
     line-height: 1.875em;
@@ -761,13 +761,13 @@ section {
   }
 
   dl {
-    margin: 1.5em 0;
+    margin: 1.66667em 0;
   }
   dl dt {
     font-weight: bold;
   }
   dl dd {
-    margin: 0 0 1.5em 1.5em;
+    margin: 0 0 1.66667em 1.66667em;
   }
 
   ul {
@@ -780,7 +780,7 @@ section {
 
   ul, ol {
     padding: 0;
-    margin: 1.5em 0 1.5em 1.5em;
+    margin: 1.66667em 0 1.66667em 1.66667em;
   }
   header nav ul ul, footer nav ul ul, header nav ol ul, footer nav ol ul {
     display: none;
@@ -797,7 +797,7 @@ section {
     list-style: upper-alpha;
   }
   ul ul, ul ol, ol ul, ol ol {
-    margin: 0 0 0 1.5em;
+    margin: 0 0 0 1.66667em;
   }
   ul ul ul, ul ol ul, ol ul ul, ol ol ul {
     list-style: square;
@@ -814,22 +814,22 @@ section {
 
   th {
     border-bottom-style: solid;
-    border-bottom-width: 0.05em;
-    padding-bottom: 1.45em;
+    border-bottom-width: 0.05556em;
+    padding-bottom: 1.61111em;
     border-bottom-color: rgba(75, 75, 75, 0.1);
     text-align: left;
   }
 
   tr {
     border-bottom-style: solid;
-    border-bottom-width: 0.05em;
-    padding-bottom: 1.45em;
+    border-bottom-width: 0.05556em;
+    padding-bottom: 1.61111em;
     border-color: rgba(75, 75, 75, 0.1);
   }
 
   td {
     vertical-align: top;
-    padding: 0.375em;
+    padding: 0.41667em;
   }
 
   img {
@@ -854,7 +854,7 @@ section {
 
   address {
     font-style: normal;
-    margin: 1.5em 0;
+    margin: 1.66667em 0;
   }
 
   br {
@@ -882,7 +882,7 @@ section {
   }
 
   .byline {
-    margin: 1.5em 0 0;
+    margin: 1.66667em 0 0;
     color: rgba(75, 75, 75, 0.75);
   }
   .byline:before {
@@ -892,7 +892,7 @@ section {
 
   /* Have to use more specific selector to override Omeka core styles. */
   body #admin-bar {
-    font-size: 20px;
+    font-size: 18px;
     margin: 0;
     padding: 0;
     width: auto;
@@ -903,7 +903,7 @@ section {
     border-bottom: 1px dotted #7e7e7e;
   }
   body #admin-bar ul {
-    font-size: 0.6em;
+    font-size: 0.66667em;
     line-height: 2.5em;
     line-height: 2.5em;
   }
@@ -964,7 +964,7 @@ section {
     color: #fff;
   }
   header[role=banner] nav {
-    margin-bottom: 1.5em;
+    margin-bottom: 1.66667em;
   }
   header[role=banner] nav ul {
     text-align: center;
@@ -973,7 +973,7 @@ section {
   /* Simple Search */
   #search-container {
     position: relative;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.66667em;
     max-width: 31.91489%;
     margin-left: auto;
     margin-right: auto;
@@ -1013,22 +1013,22 @@ section {
   }
 
   div[role=main] {
-    padding-bottom: 1.5em;
+    padding-bottom: 1.66667em;
   }
 
   #featured-item .image,
   #recent-items .image {
-    width: 3.75em;
-    height: 3.75em;
+    width: 4.16667em;
+    height: 4.16667em;
     float: left;
     display: block;
     margin-right: 2.12766%;
-    margin-top: 0.375em;
+    margin-top: 0.41667em;
   }
   #featured-item .item-description,
   #recent-items .item-description {
     margin-top: 0;
-    font-size: 0.8em;
+    font-size: 0.88889em;
     line-height: 1.875em;
     line-height: 1.875em;
   }
@@ -1056,22 +1056,22 @@ section {
   }
 
   #featured-exhibit .image {
-    width: 3.75em;
-    height: 3.75em;
+    width: 4.16667em;
+    height: 4.16667em;
     float: right;
     display: block;
     margin-left: 2.12766%;
-    margin-top: 0.375em;
+    margin-top: 0.41667em;
   }
   #featured-exhibit .description {
     margin-top: 0;
-    font-size: 0.8em;
+    font-size: 0.88889em;
     line-height: 1.875em;
     line-height: 1.875em;
   }
 
   .pagination_list {
-    font-size: 0.75em;
+    font-size: 0.83333em;
     line-height: 2em;
     line-height: 2em;
     list-style: none;
@@ -1094,7 +1094,7 @@ section {
   }
 
   #sort-links {
-    font-size: 0.8em;
+    font-size: 0.88889em;
     line-height: 1.875em;
   }
   #sort-links ul {
@@ -1126,7 +1126,7 @@ section {
     display: block;
     clear: both;
     text-align: center;
-    padding-top: 1.5em;
+    padding-top: 1.66667em;
   }
 
   .browse .item h2 {
@@ -1137,25 +1137,25 @@ section {
     margin-left: 2.12766%;
   }
   .browse .item + .item {
-    margin-top: 1.5em;
+    margin-top: 1.66667em;
   }
   .browse .collection h2 {
     margin-bottom: 0;
   }
   .browse .collection + .collection {
-    margin-top: 1.5em;
+    margin-top: 1.66667em;
   }
   .browse .collection .view-items-link {
     margin-bottom: 0;
   }
   #collection-items .item p {
-    font-size: 0.75em;
+    font-size: 0.83333em;
     line-height: 2em;
     line-height: 1.5em;
   }
 
   #outputs {
-    margin-top: 3em;
+    margin-top: 3.33333em;
   }
   #outputs:before, #outputs:after {
     content: "";
@@ -1178,12 +1178,12 @@ section {
 
   #advanced-search-form .field + .field {
     border-top: 1px dotted rgba(75, 75, 75, 0.1);
-    padding-top: 1.5em;
+    padding-top: 1.66667em;
   }
 
   #search-narrow-by-fields select,
   #search-narrow-by-fields input[type=text] {
-    margin-right: 0.375em;
+    margin-right: 0.41667em;
   }
 
   .neatline.show #neatline-map {
@@ -1196,7 +1196,7 @@ section {
   }
   .neatline.show .nl-fullscreen {
     display: inline;
-    font-size: 0.75em;
+    font-size: 0.83333em;
     line-height: 2em;
     line-height: 2em;
     text-decoration: none;
@@ -1220,7 +1220,7 @@ section {
     text-align: center;
   }
   footer[role=contentinfo] p, footer[role=contentinfo] ul {
-    font-size: 0.8em;
+    font-size: 0.88889em;
     line-height: 1.875em;
     line-height: 1.875em;
     margin-top: 1.875em;
@@ -1251,13 +1251,13 @@ section {
   }
 
   header[role=banner] {
-    padding-top: 0.75em;
-    padding-bottom: 0.75em;
+    padding-top: 0.83333em;
+    padding-bottom: 0.83333em;
   }
   header[role=banner] h1 {
     float: left;
     font-size: 1em;
-    line-height: 1.5em;
+    line-height: 1.66667em;
     margin: 0;
   }
   header[role=banner] #search-container, header[role=banner] nav {
@@ -1266,7 +1266,7 @@ section {
     margin-bottom: 0;
   }
   header[role=banner] #search-container {
-    font-size: 0.8em;
+    font-size: 0.88889em;
     line-height: 1.875em;
     width: 17.14286%;
   }
@@ -1275,7 +1275,7 @@ section {
     margin-bottom: 0;
   }
   header[role=banner] nav {
-    font-size: 0.8em;
+    font-size: 0.88889em;
     line-height: 1.875em;
   }
 
@@ -1296,10 +1296,8 @@ section {
     float: left;
     margin-right: 2.12766%;
   }
-  .show #item-tags,
-  .show #item-citation,
-  .show #item-output-formats {
-    width: 36.17021%;
+  .show #item-secondary {
+    width: 29.78723%;
     float: right;
     margin-right: 0;
     clear: right;

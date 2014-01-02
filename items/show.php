@@ -2,11 +2,14 @@
 
 <h1><?php echo metadata('item', array('Dublin Core', 'Title')); ?></h1>
 
+<div id="element-sets">
 <?php echo all_element_texts('item'); ?>
+</div>
 
+<div id="item-secondary">
 <!-- The following returns all of the files associated with an item. -->
 <?php if (metadata('item', 'has files')): ?>
-<div id="itemfiles" class="element">
+<div id="item-files" class="element">
     <h2><?php echo __('Files'); ?></h2>
     <div class="element-text"><?php echo files_for_item(); ?></div>
 </div>
@@ -14,7 +17,7 @@
 
 <!-- If the item belongs to a collection, the following creates a link to that collection. -->
 <?php if (metadata('item', 'Collection Name')): ?>
-<div id="collection" class="element">
+<div id="item-collection" class="element">
     <h2><?php echo __('Collection'); ?></h2>
     <div class="element-text"><p><?php echo link_to_collection_for_item(); ?></p></div>
 </div>
@@ -40,6 +43,8 @@
 </div>
 
 <?php fire_plugin_hook('public_items_show', array('view' => $this, 'item' => $item)); ?>
+
+</div>
 
 <nav class="item-pagination">
 <ul class="navigation">

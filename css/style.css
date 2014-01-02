@@ -1279,7 +1279,7 @@ section {
     line-height: 1.875em;
   }
 
-  .show .element-set {
+  .show #element-sets {
     width: 61.70213%;
     float: left;
     margin-right: 2.12766%;

@@ -755,7 +755,7 @@ footer[role=contentinfo] {
 
 
   .show {
-    .element-set {
+    #element-sets {
       @include span-columns(10,16);
     }
 

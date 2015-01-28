@@ -14,7 +14,11 @@ function queue_theme_assets() {
     queue_js_file(array('respond.min', 'selectivizr.min'), 'javascripts', array('conditional' => 'lt IE 9'));
 
     get_view()->headLink()->prependStylesheet('http://fonts.googleapis.com/css?family=Crimson+Text:400,600,400italic,600italic|Cabin:400,600,400italic', 'screen');
-    queue_css_file('style');
+    get_view()->headLink()->prependStylesheet('http://fonts.googleapis.com/css?family=Open+Sans|Bitter:400,700,400italic', 'screen');
+
+
+    queue_css_file(array('style', 'mcos'));
+    // queue_css_file('style');
 }
 
 function hijack_exhibit_builder_random_featured_exhibit()

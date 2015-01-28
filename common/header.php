@@ -27,9 +27,9 @@
 
         <h1 id="site-title"><?php echo link_to_home_page(theme_logo()); ?></h1>
 
-        <div id="search-container">
+<!--         <div id="search-container">
             <?php echo search_form(array('form_attributes' => array('role' => 'search'))); ?>
-        </div>
+        </div> -->
 
         <nav id="top-nav">
             <?php echo public_nav_main(); ?>

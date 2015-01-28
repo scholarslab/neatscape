@@ -1,0 +1,15 @@
+@media screen and (min-width: 1050px) {
+
+  .neatline.show div[role=main] #neatline-narrative {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+}
+
+body.neatline.show div#neatline-narrative {
+  height: 500px;
+  padding-top: 0;
+}
+
+

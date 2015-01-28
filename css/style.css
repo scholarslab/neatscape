@@ -73,7 +73,7 @@ body {
   margin: 0;
 }
 
-/* 
+/*
  * Addresses font-family inconsistency between 'textarea' and other form elements.
  */
 body,
@@ -245,7 +245,7 @@ img {
 }
 
 /*
- * Corrects overflow displayed oddly in IE9 
+ * Corrects overflow displayed oddly in IE9
  */
 svg:not(:root) {
   overflow: hidden;
@@ -400,7 +400,7 @@ textarea {
 /* =============================================================================
    Tables
    ========================================================================== */
-/* 
+/*
  * Remove most spacing between table cells
  */
 table {
@@ -1406,3 +1406,161 @@ section {
     display: none;
   }
 }
+
+/* Custom styles for Ships exhibit */
+
+/*header[role=banner] nav li:not(:last-child):after {
+  content: " ::";
+  color: rgba(255,255,255,0.25);
+}*/
+
+/*@media only screen {
+
+  #home div[role="main"],
+  .neatline-browse div[role="main"] {
+    background-image: url("../images/greece.png");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+
+  #home #primary h1 {
+    display: none !important;
+  }
+
+  #home #primary #simple-pages-breadcrumbs {
+    display: none !important;
+  }
+
+  div[role="main"] {
+    padding-left: 8.47458%;
+    padding-right: 8.47458%;
+    padding-top: 1.75em;
+    padding-bottom: 1.75em;
+  }
+
+  body {
+    font-family: Palatino, "Palatino Linotype", Georgia, serif;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  a:visited {
+    color: #a0d65c;
+  }
+
+  a:link {
+    color: #8c3;
+  }
+
+  #interactive-text {
+    font-size: 1.5em;
+    line-height: 1.16667em;
+    text-align: center;
+    font-family: "Open Sans", Verdana, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    margin: 2.33333em 0;
+  }
+
+  #interactive-text a {
+    text-decoration: none;
+    padding: 24px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+  }
+
+  #interactive-text a:link,
+  #interactive-text a:visited {
+    background-color: #8c3;
+    color: #fff;
+  }
+
+  nav ul,
+  nav ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  p,
+  ul,
+  ol,
+  dl {
+    margin-top: 1.75em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    margin-bottom: 0em;
+  }
+
+  footer[role="contentinfo"] {
+    padding-left: 8.47458%;
+    padding-right: 8.47458%;
+    padding-top: 1.75em;
+    padding-bottom: 1.75em;
+  }
+
+}
+
+@media screen {
+  body#home {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  #home header[role="banner"] {
+    padding-right: 8.47458%;
+    padding-left: 8.47458%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #home #primary,
+  .simple-page #primary,
+  .neatline-browse #primary {
+    width: 69.38776%;
+    float: right;
+    margin-right: 0;
+    display: inline;
+  }
+
+  .simple-page div[role="main"] #primary,
+  .neatline-browse div[role="main"] #primary {
+    padding: 1.75em 2.94118%;
+    background: rgba(255,255,255,0.75);
+  }
+
+  footer[role="contentinfo"] {
+    clear: both;
+    text-align: left;
+  }
+
+  footer[role="contentinfo"] nav {
+    width: 49.15254%;
+    float: left;
+    margin-right: 1.69492%;
+    display: inline;
+    text-align: left;
+  }
+
+  footer[role="contentinfo"] .credits {
+    margin: 0;
+    width: 49.15254%;
+    float: right;
+    margin-right: 0;
+    display: inline;
+  }
+
+  footer[role="contentinfo"] p {
+    font-size: 0.75em;
+    line-height: 2.33333em;
+    color: rgba(40,40,40,0.5);
+  }
+
+}
+
+*/

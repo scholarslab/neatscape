@@ -17,7 +17,7 @@ function queue_theme_assets() {
     get_view()->headLink()->prependStylesheet('http://fonts.googleapis.com/css?family=Open+Sans|Bitter:400,700,400italic', 'screen');
 
 
-    queue_css_file(array('style', 'mcos'));
+    queue_css_file(array('style', 'mcos', 'narrative'));
     // queue_css_file('style');
 }
 

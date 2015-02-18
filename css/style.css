@@ -1187,8 +1187,6 @@ section {
   }
 
   .neatline.show #neatline-map {
-    margin-left: -1em !important;
-    margin-right: -1em !important;
     height: 500px;
   }
   .neatline.show div[role=main] h1 {
@@ -1353,6 +1351,10 @@ section {
     float: left;
     margin-right: 1.88679%;
   }
+  .neatline.show div[role=main] #neatline-narrative {
+    margin-left: -1em !important;
+    margin-right: -1em !important;
+  }
 }
 @media screen and (min-width: 1050px) {
   div[role=main] {
@@ -1365,6 +1367,8 @@ section {
   .neatline.show div[role=main] #neatline-narrative {
     padding-left: 17.14286%;
     padding-right: 17.14286%;
+    margin-left: -1em !important;
+    margin-right: -1em !important;
   }
 }
 @media print {

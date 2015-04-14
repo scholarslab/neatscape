@@ -73,7 +73,7 @@ body {
   margin: 0;
 }
 
-/* 
+/*
  * Addresses font-family inconsistency between 'textarea' and other form elements.
  */
 body,
@@ -245,7 +245,7 @@ img {
 }
 
 /*
- * Corrects overflow displayed oddly in IE9 
+ * Corrects overflow displayed oddly in IE9
  */
 svg:not(:root) {
   overflow: hidden;
@@ -400,7 +400,7 @@ textarea {
 /* =============================================================================
    Tables
    ========================================================================== */
-/* 
+/*
  * Remove most spacing between table cells
  */
 table {
@@ -1362,11 +1362,22 @@ section {
   .neatline.show div[role=main] {
     padding: 0;
   }
-  .neatline.show div[role=main] #neatline-narrative {
-    padding-left: 17.14286%;
-    padding-right: 17.14286%;
-  }
 }
+
+/* NeatlineText styles*/
+
+@media screen {
+  .neatline.show div[role=main] #neatline-narrative {
+    padding-left:  2%;
+    padding-right: 2%;
+  }
+
+.neatline.show div[role=main] #neatline-narrative {
+  padding-top: 0;
+}
+
+/*Print Styles*/
+
 @media print {
   * {
     background: transparent !important;

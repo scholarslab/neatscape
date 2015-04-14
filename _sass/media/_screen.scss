@@ -430,7 +430,7 @@ header[role=banner] {
   }
 
   nav {
-    
+
     @include trailer;
     ul {
       text-align:center;
@@ -558,7 +558,7 @@ div[role=main] {
     a {
         text-decoration:none;
     }
-            
+
 }
 
 #sort-links {
@@ -595,7 +595,7 @@ div[role=main] {
     }
 
     & + .item {
-      
+
       margin-top: rhythm(1);
     }
   }
@@ -607,7 +607,7 @@ div[role=main] {
     }
 
     & + .collection {
-      
+
       @include leader(1);
     }
 
@@ -633,7 +633,7 @@ div[role=main] {
 
 #collection-items {
     .item {
-        
+
         p {
             @include adjust-font-size-to(15px);
             @include adjust-leading-to(0.75,15px);
@@ -737,14 +737,14 @@ footer[role=contentinfo] {
         margin-left: 1em;
         margin-bottom:0;
     }
-    
+
     #search-container {
         @include adjust-font-size-to(16px);
         width: space(2);
         form {
             margin-top:0;
             margin-bottom:0;
-    
+
         }
     }
 
@@ -839,5 +839,17 @@ footer[role=contentinfo] {
     body {
         @include susy-grid-background;
     }
+}
+
+/* NeatlineText styles*/
+
+.neatline.show div[role=main] #neatline-narrative {
+  padding-left:  2%;
+  padding-right: 2%;
+}
+
+#neatline.Text ~  #neatline-narrative {
+  padding-top: 0;
+  height: 500px;
 }
 

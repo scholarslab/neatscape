@@ -73,7 +73,7 @@ body {
   margin: 0;
 }
 
-/*
+/* 
  * Addresses font-family inconsistency between 'textarea' and other form elements.
  */
 body,
@@ -245,7 +245,7 @@ img {
 }
 
 /*
- * Corrects overflow displayed oddly in IE9
+ * Corrects overflow displayed oddly in IE9 
  */
 svg:not(:root) {
   overflow: hidden;
@@ -400,7 +400,7 @@ textarea {
 /* =============================================================================
    Tables
    ========================================================================== */
-/*
+/* 
  * Remove most spacing between table cells
  */
 table {
@@ -416,7 +416,7 @@ div.colors div {
 }
 
 .base-color {
-  background: #ff5533;
+  background: #f53;
 }
 
 .complementary-color {
@@ -428,35 +428,35 @@ div.colors div {
 }
 
 .analogous-negative {
-  background: #b3003b;
+  background: #ff3377;
 }
 
 .analogous-positive {
-  background: #b37700;
+  background: #ffbb33;
 }
 
 .split-complementary-negative {
-  background: #003bb3;
+  background: #3377ff;
 }
 
 .split-complementary-positive {
-  background: #00b377;
+  background: #33ffbb;
 }
 
 .triad-negative {
-  background: #1e00b3;
+  background: #5533ff;
 }
 
 .triad-positive {
-  background: #00b31e;
+  background: #33ff55;
 }
 
 .right-triangle-negative {
-  background: #7700b3;
+  background: #bb33ff;
 }
 
 .right-triangle-positive {
-  background: #3bb300;
+  background: #77ff33;
 }
 
 div[role=main]:before, div[role=main]:after {
@@ -477,17 +477,13 @@ section {
 
 @media screen {
   * {
-    -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
 
-  * html {
-    font-size: 112.5%;
-  }
-
   html {
-    font-size: 18px;
+    font-size: 112.5%;
     line-height: 1.66667em;
   }
 
@@ -518,11 +514,11 @@ section {
   }
 
   a {
-    color: #337799;
-    color: #337799;
-    -webkit-transition: color 0.5s, background-color 0.5s;
+    color: #379;
+    color: #379;
     -moz-transition: color 0.5s, background-color 0.5s;
     -o-transition: color 0.5s, background-color 0.5s;
+    -webkit-transition: color 0.5s, background-color 0.5s;
     transition: color 0.5s, background-color 0.5s;
   }
   a:visited {
@@ -535,18 +531,18 @@ section {
     color: #3986ac;
   }
   a:active {
-    color: #337799;
+    color: #379;
   }
   a:before {
-    -webkit-transition: color 0.5s;
     -moz-transition: color 0.5s;
     -o-transition: color 0.5s;
+    -webkit-transition: color 0.5s;
     transition: color 0.5s;
   }
   a img {
-    -webkit-transition: opacity 0.5s;
     -moz-transition: opacity 0.5s;
     -o-transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
     transition: opacity 0.5s;
   }
 
@@ -717,8 +713,8 @@ section {
   form textarea,
   form input[type=text] {
     border: 1px solid rgba(75, 75, 75, 0.1);
-    -webkit-box-shadow: 0;
     -moz-box-shadow: 0;
+    -webkit-box-shadow: 0;
     box-shadow: 0;
   }
 
@@ -747,8 +743,8 @@ section {
     border: 1px solid rgba(75, 75, 75, 0.1);
     padding: 0.41667em;
     background: #fff;
-    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   }
 
@@ -813,16 +809,16 @@ section {
   }
 
   th {
-    border-bottom-style: solid;
     border-bottom-width: 0.05556em;
+    border-bottom-style: solid;
     padding-bottom: 1.61111em;
     border-bottom-color: rgba(75, 75, 75, 0.1);
     text-align: left;
   }
 
   tr {
-    border-bottom-style: solid;
     border-bottom-width: 0.05556em;
+    border-bottom-style: solid;
     padding-bottom: 1.61111em;
     border-color: rgba(75, 75, 75, 0.1);
   }
@@ -910,11 +906,11 @@ section {
   body #admin-bar li a {
     text-decoration: none;
     padding: 0;
-    color: #337799 !important;
+    color: #379 !important;
     font-family: "Cabin", "Lucida Grande", Verdana, sans-serif !important;
   }
   body #admin-bar li a:link {
-    color: #337799 !important;
+    color: #379 !important;
   }
   body #admin-bar li a:visited {
     color: #4095bf !important;
@@ -1008,7 +1004,7 @@ section {
   }
   #search-container input[type=submit]:hover, #search-container input[type=submit]:focus, #search-container input[type=submit]:active {
     outline: none;
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
     opacity: 1;
   }
 
@@ -1148,6 +1144,27 @@ section {
   .browse .collection .view-items-link {
     margin-bottom: 0;
   }
+}
+@media screen and (min-width: 1410px) {
+  .browse .collection .description {
+    width: 66.03774%;
+    float: left;
+    margin-right: 1.88679%;
+    display: inline;
+  }
+  .browse .collection .meta {
+    width: 20.75472%;
+    float: right;
+    margin-right: 0;
+    *margin-left: -30px;
+    display: inline;
+  }
+  .browse .collection .meta h3 {
+    margin-top: 0;
+  }
+}
+
+@media screen {
   #collection-items .item p {
     font-size: 0.83333em;
     line-height: 2em;
@@ -1229,23 +1246,7 @@ section {
     margin-bottom: 1.875em;
   }
 }
-@media screen and (min-width: 1050px) {
-  .browse .collection .description {
-    width: 66.03774%;
-    float: left;
-    margin-right: 1.88679%;
-  }
-  .browse .collection .meta {
-    width: 20.75472%;
-    float: right;
-    margin-right: 0;
-  }
-  .browse .collection .meta h3 {
-    margin-top: 0;
-  }
-}
-
-@media screen and (min-width: 690px) {
+@media screen and (min-width: 1410px) {
   body #admin-bar {
     text-align: right !important;
   }
@@ -1268,7 +1269,7 @@ section {
   header[role=banner] #search-container {
     font-size: 0.88889em;
     line-height: 1.875em;
-    width: 26.08696%;
+    width: 12.76596%;
   }
   header[role=banner] #search-container form {
     margin-top: 0;
@@ -1283,11 +1284,14 @@ section {
     width: 61.70213%;
     float: left;
     margin-right: 2.12766%;
+    display: inline;
   }
   .show #item-secondary {
     width: 29.78723%;
     float: right;
     margin-right: 0;
+    *margin-left: -30px;
+    display: inline;
     clear: right;
   }
 
@@ -1295,12 +1299,15 @@ section {
     width: 48.93617%;
     float: left;
     margin-right: 2.12766%;
+    display: inline;
   }
 
   #recent-items {
     width: 48.93617%;
     float: right;
     margin-right: 0;
+    *margin-left: -30px;
+    display: inline;
   }
 
   #advanced-search-form .field:before, #advanced-search-form .field:after {
@@ -1316,12 +1323,15 @@ section {
     width: 32.07547%;
     float: left;
     margin-right: 1.88679%;
+    display: inline;
     text-align: right;
   }
   #advanced-search-form .field .inputs {
     width: 66.03774%;
     float: right;
     margin-right: 0;
+    *margin-left: -30px;
+    display: inline;
   }
   #advanced-search-form .field .add_search {
     clear: right;
@@ -1346,38 +1356,42 @@ section {
     width: 66.03774%;
     float: right;
     margin-right: 0;
+    *margin-left: -30px;
+    display: inline;
     text-align: right;
   }
   footer[role=contentinfo] #footer-text {
     width: 32.07547%;
     float: left;
     margin-right: 1.88679%;
+    display: inline;
   }
 }
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 1410px) {
   div[role=main] {
-    padding-left: 8.57143%;
-    padding-right: 8.57143%;
+    padding-left: 6.38298%;
+    padding-right: 6.38298%;
   }
   .neatline.show div[role=main] {
     padding: 0;
   }
-}
-
-/* NeatlineText styles*/
-
-@media screen {
   .neatline.show div[role=main] #neatline-narrative {
-    padding-left:  2%;
+    padding-left: 12.76596%;
+    padding-right: 12.76596%;
+  }
+}
+@media screen {
+  /* NeatlineText styles*/
+  .neatline.show div[role=main] #neatline-narrative {
+    padding-left: 2%;
     padding-right: 2%;
   }
 
-.neatline.show div[role=main] #neatline-narrative {
-  padding-top: 0;
+  #neatline.Text ~ #neatline-narrative {
+    padding-top: 0;
+    height: 500px;
+  }
 }
-
-/*Print Styles*/
-
 @media print {
   * {
     background: transparent !important;
@@ -1402,8 +1416,7 @@ section {
 
   @page {
     margin: .5cm;
-}
-
+  }
   p, h2, h3 {
     orphans: 3;
     widows: 3;

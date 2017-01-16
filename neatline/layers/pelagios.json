@@ -1,0 +1,14 @@
+{
+  "Pelagios": [
+    {
+    "title": "Pelagios Digital Map of the Roman Empire",
+    "type": "XYZ",
+    "id": "pelagios",
+    "properties": {
+      "urls": [
+        "http://pelagios.org/tilesets/imperium/${z}/${x}/${y}.png"
+      ]
+    }
+  }
+  ]
+}
